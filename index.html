@@ -393,17 +393,21 @@
     <div class="backdrop">
 <div class="modal">
    <h2>Leave your contactsand we will call you back</h2>
-   <label for="">
-    <input type="text" name="name">
+   <div class="modal-wrapper">
+   <label for="name">Name
+    <input class="modal-input" type="text" id="name" name="name" required autofocus>
    </label>
-       <label for="">
-        <input type="tel" name="tel">
+       <label for="tel">Phone
+        <input class="modal-input" type="tel" id="tel" name="tel" required>
        </label>
-        <label for=""><input type="email" name="email">
+        <label for="email">Email
+            <input class="modal-input" type="email" id="email" name="email" required>
         </label>
-        <label for="">
-            <textarea name="comment" id="" cols="30" rows="10" placeholder="Text input"></textarea>
+        <label for="comment">Comment
+            <textarea class="modal-input" name="comment" id="comment" cols="30" rows="10" placeholder="Text input" required></textarea>
         </label>
+        </div>
+        <checkbox class="checkbox" type="checkbox">I accept the terms and conditions of the Privacy Policy</checkbox>
         <button type="submit">Send</button>
 </div>
     </div>
