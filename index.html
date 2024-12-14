@@ -392,8 +392,8 @@
     </footer>
     <div class="backdrop">
 <div class="modal">
-   <h2>Leave your contactsand we will call you back</h2>
-   <div class="modal-wrapper">
+   <h2 сlass="modal-title">Leave your contactsand we will call you back</h2>
+
    <label for="name">Name
     <input class="modal-input" type="text" id="name" name="name" required autofocus>
    </label>
@@ -406,9 +406,12 @@
         <label for="comment">Comment
             <textarea class="modal-input" name="comment" id="comment" cols="30" rows="10" placeholder="Text input" required></textarea>
         </label>
-        </div>
-        <checkbox class="checkbox" type="checkbox">I accept the terms and conditions of the Privacy Policy</checkbox>
-        <button type="submit">Send</button>
+<div class="modal-checkbox">
+    <checkbox class="checkbox" type="checkbox" name="checkbox" id="checkbox"></checkbox>
+    <label for="checkbox">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
+</div>
+        
+        <button class="modal-button" type="submit">Send</button>
 </div>
     </div>
 </body>
