@@ -440,19 +440,19 @@
 
 <div class="modal-field modal-comment">
     <label class="modal-label" for="comment">Comment</label>
-        <textarea class="modal-textarea modal-label" name="comment" id="comment" placeholder="Text input" required></textarea>  
+        <textarea class="modal-textarea modal-label" name="comment" id="comment" placeholder="Text input"></textarea>  
 </div>
 
 <div class="modal-checkbox">
-    <input class="modal-checkbox-input visually-hidden" type="checkbox" name="checkbox" id="user-policy" value="true">
+    <input class="modal-checkbox-input visually-hidden" type="checkbox" name="checkbox" id="user-policy" value="true" required/>
     <label class="modal-checkbox-label" for="user-policy">
     <span class="modal-checkbox-check">
         <svg width="10" height="8">
-            <use href="./img/icons.svg#icon-checkbox"></use>
+            <use href="./img/icons.svg#icon-checkmark"></use>
         </svg>
     </span>
      I accept the terms and conditions of the 
-     <a href="#">Privacy Policy</a>
+     <a class="modal-checkbox-link" href="#">Privacy Policy</a>
     </label>
 </div>
 
