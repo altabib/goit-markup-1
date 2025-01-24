@@ -198,7 +198,7 @@ margin: 0 auto 120px;
   background-color: #404BBF;
 }
 
-/* about */
+/* aboute */
 
 .about-container{
   display: flex;
@@ -245,6 +245,29 @@ width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.about-icon:hover .color2, .about-icon:hover .color3, .about-icon:hover .color4{
+  fill: #4D5AE5;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.about-icon-diagram:hover .color1, .about-icon-diagram:hover .color2, .about-icon-diagram:hover .color3, .about-icon-diagram:hover .color4{
+  fill: #4D5AE5;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.about-icon-astronaut:hover .color1, .about-icon-astronaut:hover .color2, 
+.about-icon-astronaut:hover .color3, .about-icon-astronaut:hover .color4, 
+.about-icon-astronaut:hover .color5, .about-icon-astronaut:hover .color6, 
+.about-icon-astronaut:hover .color7, .about-icon-astronaut:hover .color8, 
+.about-icon-astronaut:hover .color9, .about-icon-astronaut:hover .color10, 
+.about-icon-astronaut:hover .color11, .about-icon-astronaut:hover .color12, 
+.about-icon-astronaut:hover .color13, .about-icon-astronaut:hover .color14,
+.about-icon-astronaut:hover .color15, .about-icon-astronaut:hover .color16,
+.about-icon-astronaut:hover .color21{
+  fill: #4D5AE5;      
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* team */
