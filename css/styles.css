@@ -38,16 +38,16 @@ ul, ol {
   text-decoration: none;
 }
 .section{
-  /* margin-top: 60px; */
-  margin-bottom: 120px;
+ padding: 96px 0px;
 }
 
 
 .container {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
+  padding: 0 16px;
   /* padding: 0 15px; */
-  padding: 0 156px;
+  /* padding: 0 156px; */
 }
 
 html {
@@ -284,7 +284,7 @@ width: 264px;
   align-items: center;
 }
 
-.team-title, .portfolio-title{
+.team-title{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -292,8 +292,8 @@ width: 264px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2E2F42;
-  padding-top: 120px;
-  margin-bottom: 72px;
+  /* padding-top: 120px; */
+  /* margin-bottom: 72px; */
 
 }
 
@@ -332,7 +332,7 @@ width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .team-icon-container, .footer-icon-container{
@@ -373,29 +373,36 @@ width: 264px;
 /* portfolio */
 
 .portfolio-title{
-  padding-top: 120px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+  /* padding-top: 120px; */
   margin-bottom: 72px;
 }
 
 .portfolio-list{
   display: flex;
-  gap: 24px;
-  margin-bottom: 120px;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 48px) / 3);
+  gap: 48;
+  flex-basis: 100%;
   justify-content: center;
-
+  /* gap: 24px; */
+  /* margin-bottom: 120px; */
+  /* flex-basis: calc((100% - 48px) / 3); */
 }
 
 .portfolio-name{
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 
-.portfolio-text{
+/* .portfolio-text{
 margin-bottom: 32px;
 padding-left: 16px;
-}
+} */
 
 .portfolio-img{
   max-width: 100%;
@@ -436,6 +443,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .portfolio-card:hover{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+  
+
 
 /* footer */
 
@@ -478,6 +487,7 @@ color: #4D5AE5;
   gap: 120px;
   align-items: baseline;
 }
+
 .footer-form{
   display: flex;
   gap: 24px;
@@ -533,6 +543,8 @@ cursor: pointer;
 .footer-icon-group:hover, .footer-icon-group:active, .footer-icon-group:focus-within{
   background-color: #404BBF;
 }
+
+
 
 /* Modal */
 
