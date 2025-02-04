@@ -38,7 +38,7 @@ ul, ol {
   text-decoration: none;
 }
 .section{
- padding: 96px 0px;
+ padding: 0px 0px 192px 0px;
 }
 
 .container {
@@ -275,9 +275,11 @@ width: 264px;
 
 .team-list{
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
   align-items: center;
+  flex-basis: 100%;
 }
 
 .team-title{
@@ -289,7 +291,7 @@ width: 264px;
   text-transform: capitalize;
   color: #2E2F42;
   /* padding-top: 120px; */
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
 
 }
 
@@ -328,7 +330,7 @@ width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* margin-bottom: 32px; */
+  margin-bottom: 8px;
 }
 
 .team-icon-container, .footer-icon-container{

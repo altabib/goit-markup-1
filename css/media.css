@@ -1,14 +1,13 @@
-
-
-
-
-
+/* screen 320 */
 @media screen and (min-width: 320px){
 .container{
     max-width: 320px;
 }
 }
 
+
+
+/* screen 768 */
 @media screen and (min-width: 768px){
 .container{
 max-width: 768px;
@@ -22,8 +21,15 @@ flex-basis: calc((100% - 24px) / 2);
 .portfolio-card:not(:last-child){
 margin-bottom: 0px;
 }
+.team-list{
+    gap: 64px 24px; 
 }
 
+}
+
+
+
+/* screen 1128 */
 @media screen and (min-width: 1128px){
 .container{
 max-width: 1128px;
@@ -37,5 +43,12 @@ gap: 48px 24px;
 }
 .section{
  padding: 120px 0px;
+}
+.team-list{
+    gap: 24px; 
+    flex-wrap: nowrap;
+}
+.team-container{
+    margin-bottom: 120;
 }
 }
