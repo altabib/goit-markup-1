@@ -1,11 +1,9 @@
 /* screen 320 */
 @media screen and (min-width: 320px){
 .container{
-    max-width: 320px;
+max-width: 320px;
 }
 }
-
-
 
 /* screen 768 */
 @media screen and (min-width: 768px){
@@ -33,8 +31,21 @@ flex-basis: calc((100% - 24px) / 2);
 .about-title{
 text-align: start;
 }
+.footer-container{
+padding: 0px 108px;
+text-align: left;
+gap: 72px 24px;
 }
-
+.footer-tablet{
+flex-basis: calc((100% - 24px) / 2);
+}
+.footer-text{
+    max-width: 264px;
+}
+}
+.footer-form{
+flex-wrap: nowrap;
+}
 
 
 /* screen 1128 */
