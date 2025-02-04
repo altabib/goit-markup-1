@@ -22,17 +22,25 @@ flex-basis: calc((100% - 24px) / 2);
 margin-bottom: 0px;
 }
 .team-list{
-    gap: 64px 24px; 
+gap: 64px 24px; 
 }
-
+.about-list{
+gap: 72px 24px;
+}
+.about-item{
+flex-basis: calc((100% - 24px) / 2);
+}
+.about-title{
+text-align: start;
+}
 }
 
 
 
 /* screen 1128 */
-@media screen and (min-width: 1128px){
+@media screen and (min-width: 1158px){
 .container{
-max-width: 1128px;
+max-width: 1158px;
 }
 .portfolio-list{
 gap: 48px 24px; 
@@ -48,7 +56,17 @@ gap: 48px 24px;
     gap: 24px; 
     flex-wrap: nowrap;
 }
-.team-container{
-    margin-bottom: 120;
+.about-list{
+    flex-wrap: nowrap;
+}
+.about-icon-container{
+    display: flex;
+}
+.about-title{
+    font-weight: 500;
+    font-size: 20px;
+}
+.about-text{
+    font-weight: 400;
 }
 }

@@ -38,7 +38,7 @@ ul, ol {
   text-decoration: none;
 }
 .section{
- padding: 0px 0px 192px 0px;
+ padding: 96px 0px 96px 0px;
 }
 
 .container {
@@ -197,23 +197,10 @@ margin: 0 auto 120px;
 
 /* aboute */
 
-.about-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  margin-bottom: 120px;
-  flex-wrap: wrap;
-}
-
 .about-list{
-  max-width: 1128px;
   display: flex;
-  gap: 24px;
-}
-
-.about-item{
-width: 264px;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 .about-icon-container{
@@ -225,19 +212,22 @@ width: 264px;
   border: 1px solid #8E8F99;
   border-radius: 4px;
   margin-bottom: 8px;
+  display: none;
 }
 
 .about-title{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
   margin-bottom: 8px;
+  text-align: center;
+
 }
 
 .about-text{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
