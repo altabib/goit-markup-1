@@ -452,7 +452,7 @@ align-items: baseline;
   letter-spacing: 0.03em;
   color: #F4F4FD;
   cursor: pointer;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .footer-logo-web, .header-logo-web{
@@ -493,13 +493,12 @@ color: #4D5AE5;
 
 .footer-text-second{
   font-weight: 400;
-text-align: left;
+  text-align: left;
 }
 
 .footer-form{
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
   gap: 16px;
   justify-content: center;
   align-items: center;
