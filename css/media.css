@@ -6,6 +6,15 @@ max-width: 320px;
 .footer-container{
 justify-content: center;
 }
+.modal-checkbox{
+position: relative;
+}
+.modal-checkbox-check{
+position: absolute;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+}
 }
 
 /* screen 768 */
@@ -70,6 +79,11 @@ gap: 24px;
 }
 .footer-input{
 width: 264px;
+}
+.modal{
+max-width: 408px;
+max-height: 584px;
+padding: 72px 24px 24px 24px;
 }
 }
 
