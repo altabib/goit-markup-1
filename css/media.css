@@ -15,6 +15,12 @@ left: 0;
 top: 50%;
 transform: translateY(-50%);
 }
+.header-nav{
+    display: none;
+}
+.header-contacts{
+    display: none;
+}
 }
 
 /* screen 768 */
