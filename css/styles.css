@@ -56,13 +56,12 @@ html {
   gap: 40px;
   display: flex;
   justify-content: space-between;
-  /* padding: 24px 0; */
 }
 
 .header-inner{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 120px;
     flex-grow: 1;
 }
 
@@ -124,24 +123,6 @@ transition:hover 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .header-logo:hover, .header-logo:active, .header-logo:focus-within{
 color: #4D5AE5;
-}
-
-.header-contacts-link{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.header-contacts{
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.header-contacts-link{
-  padding: 24px 0;
 }
 
 .header-mobile-manu{
