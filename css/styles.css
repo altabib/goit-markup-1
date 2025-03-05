@@ -851,7 +851,7 @@ margin: 0 auto;
 }
 
 .menu-button-open:hover, .menu-contacts-link:active, .menu-contacts-link:focus-within{
-  background-color: #404BBF;
+  /* background-color: #404BBF; */
   border: none;
   fill: #FFFFFF;
 }
